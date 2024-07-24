@@ -34,7 +34,60 @@ const questions = [
       { text: "Kabam", correct: false },
       { text: "All of the above", correct: true },
     ],
-  },
+  }, {
+        question:"Which Indian city is known as the Manchester of South India?",
+        answers:[
+            {text:"Coimbatore",correct:true},
+            {text:"Bangaluru",correct:false},
+            {text:"Chennai",correct:false},
+            {text:"Mysore",correct:false},
+        ]
+    },
+    {
+        question:"Which of the following states of India has high potentials for solar energy?",
+        answers:[
+            {text:"West Bengal",correct:false},
+            {text:"Odisha",correct:false},
+            {text:"Karnataka",correct:false},
+            {text:"Rajasthan",correct:true},
+        ]
+    },
+    {
+        question:"The longest National Highway NH-44 passed through how many states/ UTs?",
+        answers:[
+            {text:"5",correct:false},
+            {text:" 9",correct:false},
+            {text:"12",correct:true},
+            {text:"15",correct:false},
+        ]
+    },
+    {
+        question:"Which of the following states of India has the lowest density of population as per the census 2011?",
+        answers:[
+            {text:"Sikkim",correct:false},
+            {text:"Meghalaya",correct:false},
+            {text:"Arunachal Pradesh",correct:true},
+            {text:"Himachal Pradesh",correct:false},
+        ]
+    },
+    {
+        question:"Guwahati is situated on the bank of which river?",
+        answers:[
+            {text:"Sone",correct:false},
+            {text:" Hooghly",correct:false},
+            {text:" Brahmaputra",correct:true},
+            {text:"Teesta",correct:false},
+        ]
+    },
+    {
+        question:"Which of the following is the highest mountain peak in Maharashtra?",
+        answers:[
+            {text:"Anjaneri",correct:false},
+            {text:"Kalsubai Shikha",correct:true},
+            {text:"Taramati",correct:false},
+            {text:"Salher",correct:false},
+        ]
+    }
 ];
 
 const questionElement = document.getElementById("question");
